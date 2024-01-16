@@ -1,0 +1,165 @@
+/* hompage css styles */
+*{
+  background-color: black;
+  font-family: 'DM Sans', sans-serif;
+}
+.navbar-logo {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: blueviolet;
+  margin-right: 420px;
+
+}
+
+.navbar-logo:hover{
+  
+  color: whitesmoke;
+}
+
+.data-image img{
+  width: 45%;
+  height: 35%;
+  position: relative;
+  top: -550px;
+ 
+}
+.data{
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  margin-left: 47%;
+  font-size: 74px;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  line-height: 1.9
+
+}
+.highlight{
+  color: blueviolet;
+}
+/* projects component css  */
+.projects{
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+.projects ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects img{
+  height: 390px;
+  width:320px;
+}
+.projects li{
+  flex: 0 0 calc(33.333% - 20px);
+  margin: 10px;
+  padding: 15px;
+  border: 3px solid #ddd;
+  transition: transform 0.3s ease-in-out;
+  color: #ddd;
+  border-radius: 4%;
+  font-family: 'DM Sans', sans-serif;
+}
+/* github link styling */
+.projects a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007BFF;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.projects a:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: #fff;
+}
+.data1{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: blueviolet;
+  
+}
+.data1:hover{
+  color: white;
+}
+/* css for the experience component */
+.experience-data{
+  color: #ddd;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 40px rgba(112, 11, 11, 0.1);
+}
+/* css for education component */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.education-info {
+  margin-top: 20px;
+  border-bottom: 2px solid blueviolet;
+  padding-bottom: 20px;
+  
+}
+
+.education-info h2 {
+  font-size: 28px;
+  color: blueviolet;
+  margin-bottom: 15px;
+}
+
+.education-info p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.technical-skills {
+  margin-top: 20px;
+}
+
+.technical-skills h2 {
+  font-size: 28px;
+  color: blueviolet;
+  margin-bottom: 15px;
+}
+
+.technical-skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.technical-skills li {
+  margin-bottom: 10px;
+}
+
+.technical-skills button {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.technical-skills button:hover {
+  background-color: yellowgreen;
+}

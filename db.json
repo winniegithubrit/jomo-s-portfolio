@@ -1,0 +1,65 @@
+{
+  "projectData":
+[
+  {
+    "id": 1,
+    "name": "Aesth Food",
+    "description": "Food application done by Django",
+    "language": "Python",
+    "framework": "Django",
+    "type": "Backend",
+    "url": "https://github.com/winniegithubrit/aesth-food.git",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZvb2R8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 2,
+    "name": "Book App Project",
+    "description": "Backend side done with Flask",
+    "language": "Python",
+    "framework": "Flask",
+    "type": "Backend",
+    "url": "https://github.com/winniegithubrit/BookAppProject.git",
+    "image": "https://images.unsplash.com/photo-1563417994954-2736db3bf2c9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 3,
+    "name": "Munch Hub",
+    "description": "Backend done with Flask",
+    "language": "Python",
+    "framework": "Flask",
+    "type": "Backend",
+    "url": "https://github.com/winniegithubrit/food_app_backend_project.git",
+    "image": "https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 4,
+    "name": "Transport Project",
+    "description": "Done with Jinja2 template",
+    "language": "Python",
+    "framework": "Jinja2",
+    "type": "Frontend",
+    "url": "https://github.com/winniegithubrit/flask.git",
+    "image": "https://plus.unsplash.com/premium_photo-1675670749768-77b94648a6fa?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 5,
+    "name": "Pet Kingdom",
+    "description": "Done with React",
+    "language": "JavaScript",
+    "framework": "React",
+    "type": "Frontend",
+    "url": "pet-kingdom-project.netlify.app/",
+    "image": "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 6,
+    "name": "Italanta Website Clone",
+    "description": "Done with React TypeScript",
+    "language": "TypeScript",
+    "framework": "React",
+    "type": "Frontend",
+    "url": "https://github.com/winniegithubrit/winnie-assessment.git",
+    "image": "https://images.unsplash.com/photo-1530435460869-d13625c69bbf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
+}
