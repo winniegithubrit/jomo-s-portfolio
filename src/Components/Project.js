@@ -47,23 +47,23 @@ function Project() {
           </ul>
         </div>
       </nav>
-      <div className='projects'>
-        <h1 className='data1'>My Projects</h1>
-          <ul>
-            {projectData.map(projectDat =>(
-              
-             <li key={projectDat.id}>
-              <img src={projectDat.image} alt={projectDat.name}/>
+      <div className="projects">
+        <h1 className="data1">My Projects</h1>
+        <ul>
+          {projectData.map((projectDat) => (
+            <li key={projectDat.id}>
+              <img src={projectDat.image} alt={projectDat.name} />
               <h2>{projectDat.name}</h2>
               <p>{projectDat.description}</p>
               <p>{projectDat.language}</p>
               <p>{projectDat.type}</p>
               <p>{projectDat.framework}</p>
-              <a href={projectDat.url} target="_blank">View on Github</a>
-
-             </li>
-            ))}
-          </ul>
+              <a href={projectDat.url} target="_blank" rel="noreferrer">
+                View on Github
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
