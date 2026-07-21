@@ -217,7 +217,7 @@ function Contact() {
           </Box>
         </Fade>
         
-        <Grid container spacing={4}>
+        <Grid container spacing={4} justifyContent="center">
           <Grid item xs={12} md={6}>
             <Fade in={true} timeout={1000}>
               <Paper 

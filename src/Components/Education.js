@@ -242,8 +242,8 @@ function Education() {
           </Box>
         </Fade>
         
-        <Grid container spacing={4}>
-          <Grid item xs={12} md={7}>
+        <Grid container spacing={4} justifyContent="center">
+          <Grid item xs={12} md={8}>
             {education.map((edu, index) => (
               <Fade in={true} timeout={1000 + index * 150} key={index}>
                 <Paper 
@@ -343,61 +343,61 @@ function Education() {
               </Fade>
             ))}
           </Grid>
-          
-          <Grid item xs={12} md={5}>
-            <Fade in={true} timeout={1200}>
-              <Paper 
-                elevation={6} 
+        </Grid>
+        
+        <Box sx={{ mt: 6 }}>
+          <Fade in={true} timeout={1200}>
+            <Paper 
+              elevation={6} 
+              sx={{ 
+                p: { xs: 3, md: 4 }, 
+                borderRadius: 3, 
+                bgcolor: 'rgba(27, 38, 59, 0.6)',
+                backdropFilter: 'blur(10px)',
+                border: '1px solid rgba(255, 215, 0, 0.15)',
+                boxShadow: '0 8px 32px rgba(0, 0, 0, 0.3)',
+                maxWidth: 'md',
+                mx: 'auto'
+              }}
+            >
+              <Typography 
+                variant="h4" 
+                component="h2" 
+                gutterBottom 
                 sx={{ 
-                  p: { xs: 3, md: 4 }, 
-                  borderRadius: 3, 
-                  bgcolor: 'rgba(27, 38, 59, 0.6)',
-                  backdropFilter: 'blur(10px)',
-                  border: '1px solid rgba(255, 215, 0, 0.15)',
-                  boxShadow: '0 8px 32px rgba(0, 0, 0, 0.3)',
-                  position: 'sticky',
-                  top: 100
+                  color: '#ffd700', 
+                  fontWeight: '800', 
+                  mb: 3,
+                  fontSize: { xs: '1.5rem', md: '2rem' },
+                  letterSpacing: '-0.5px'
                 }}
               >
-                <Typography 
-                  variant="h4" 
-                  component="h2" 
-                  gutterBottom 
-                  sx={{ 
-                    color: '#ffd700', 
-                    fontWeight: '800', 
-                    mb: 3,
-                    fontSize: { xs: '1.5rem', md: '2rem' },
-                    letterSpacing: '-0.5px'
-                  }}
-                >
-                  Technical Skills
-                </Typography>
-                <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1.5 }}>
-                  {technicalSkills.map((skill, index) => (
-                    <Chip 
-                      key={index} 
-                      label={skill} 
-                      sx={{ 
-                        bgcolor: 'rgba(27, 38, 59, 0.8)', 
-                        color: '#e0e0e0',
-                        border: '1px solid rgba(255, 215, 0, 0.3)',
-                        fontSize: { xs: '0.8rem', md: '0.9rem' },
-                        '&:hover': { 
-                          bgcolor: '#ffd700',
-                          color: '#0d1b2a',
-                          transform: 'scale(1.1)',
-                          boxShadow: '0 4px 15px rgba(255, 215, 0, 0.4)'
-                        },
-                        transition: 'all 0.3s ease'
-                      }}
-                    />
-                  ))}
-                </Box>
-              </Paper>
-            </Fade>
-          </Grid>
-        </Grid>
+                Technical Skills
+              </Typography>
+              <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1.5 }}>
+                {technicalSkills.map((skill, index) => (
+                  <Chip 
+                    key={index} 
+                    label={skill} 
+                    sx={{ 
+                      bgcolor: 'rgba(27, 38, 59, 0.8)', 
+                      color: '#e0e0e0',
+                      border: '1px solid rgba(255, 215, 0, 0.3)',
+                      fontSize: { xs: '0.8rem', md: '0.9rem' },
+                      '&:hover': { 
+                        bgcolor: '#ffd700',
+                        color: '#0d1b2a',
+                        transform: 'scale(1.1)',
+                        boxShadow: '0 4px 15px rgba(255, 215, 0, 0.4)'
+                      },
+                      transition: 'all 0.3s ease'
+                    }}
+                  />
+                ))}
+              </Box>
+            </Paper>
+          </Fade>
+        </Box>
       </Container>
     </Box>
   );

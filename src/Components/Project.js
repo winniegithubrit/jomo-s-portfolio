@@ -221,7 +221,7 @@ function Project() {
           </Box>
         </Fade>
         
-        <Grid container spacing={4}>
+        <Grid container spacing={4} justifyContent="center">
           {projectData.map((project, index) => (
             <Grid item xs={12} md={6} lg={4} key={project.id}>
               <Fade in={true} timeout={1000 + index * 150}>
